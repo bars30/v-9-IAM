@@ -43,6 +43,14 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
         botMsg.appendChild(botP);
         chatboxMessages.appendChild(botMsg);
 
+        // if (firstMessage) {
+        //   firstMessage = false;
+        // } else {
+        //   const previous = document.querySelector('.new-bot-message');
+        //   if (previous) previous.classList.remove("new-bot-message");
+        // }
+
+
         const previous = document.querySelector('.new-bot-message');
           if (previous) previous.classList.remove("new-bot-message");
         botMsg.classList.add("new-bot-message");

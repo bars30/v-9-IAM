@@ -12,6 +12,7 @@ export function setupChatController() {
   sendBtn.addEventListener("click", () => {
     setTimeout(() => {  
 
+
     findOutMoreBtn.disabled = true;
     sendBtn.disabled = true; 
       const userInput = chatboxInput.value.trim();
@@ -67,8 +68,10 @@ export function setupChatController() {
       <p>Leider kann ich diese Frage nicht direkt beantworten, aber einer unserer Berater wird sich in Kürze mit Ihnen in Verbindung setzen.</p>
     `;
       }
+
       const newBotEl = addMessage(fullResponse, "bot", true, () => {
-    chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
+    
+    
 
     findOutMoreBtn.disabled = false;
     sendBtn.disabled = false;
@@ -80,7 +83,8 @@ export function setupChatController() {
             }
 
   newBotEl.classList.add("new-bot-message");
-  chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
+    chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
+    console.log(1);
 
 
 
@@ -118,8 +122,6 @@ export function setupChatController() {
 
 
   const newBotEl = addMessage(fullResponse, "bot", true, () => {
-    chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
-    
     findOutMoreBtn.disabled = false;
     sendBtn.disabled = false;
   });
@@ -131,7 +133,8 @@ export function setupChatController() {
             }
 
   newBotEl.classList.add("new-bot-message");
-  
+      chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
+    console.log(1);
 
 
   chatState = "done";
@@ -139,5 +142,5 @@ export function setupChatController() {
     }
   }, 200)
   });
-
+ 
 }
