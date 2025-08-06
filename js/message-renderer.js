@@ -14,7 +14,7 @@ function typeText(container, text, delay = 15, callback) {
   }, delay);
 }
 
-function typeTextHTML(container, html, delay = 20, callback) {
+function typeTextHTML(container, html, delay = 15, callback) {
   container.innerHTML = ''; 
 
   const tempDiv = document.createElement("div");
@@ -91,9 +91,9 @@ function addMessage(text, sender = "bot", animated = false, callback, file = fal
   chatboxMessages.appendChild(msgDiv);
 
   const isSimpleText = !/<[^>]+>/.test(text);
-
+ 
   if (animated && !isSimpleText) {
-    typeTextHTML(p, text, 20, () => {
+    typeTextHTML(p, text, 15, () => {
       if (callback) callback();
     });
   } else {

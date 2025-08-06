@@ -11,6 +11,8 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
   promptButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const selectedPrompt = btn.textContent;
+      console.log(selectedPrompt);
+      
       
       promptButtons.forEach(b => b.disabled = true);
       footerBtn[0].disabled = true;
@@ -56,7 +58,13 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
         footerBtn[0].disabled = true;
         footerBtn[1].disabled = true;
 
-        typeTextHTML(botP, getBotReply(selectedPrompt), 20, () => {
+        let delay = 15;
+        if (selectedPrompt == "Data Protection" || selectedPrompt == "Datenschutz") {
+          console.log("🍺🍺🍺🍺");
+          delay = 8;
+        }
+
+        typeTextHTML(botP, getBotReply(selectedPrompt), delay, () => {
           questionsBtn.disabled = false;
           langButtons.forEach(b => b.disabled = false);
           langSwitcher.classList.remove("disabled");
