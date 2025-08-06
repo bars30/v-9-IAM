@@ -192,7 +192,12 @@ background: none;
 }
 
 
-p, b, span {
+p, b, span,
+.message h1, .message h2, .message h3, 
+.message h4, .message h5, .message h6,
+.message p, .message b, .message span,
+.message li {
+  font-size: var(--16px);
   color: var(--text-dark);
 }
 .quick-prompts-header {

@@ -104,7 +104,7 @@ export function setupChatController() {
     const now = new Date();
     const sentTime = now.toLocaleString();
     
-    emailjs.send('service_1ol3sjl', 'template_oghj12k', {
+    emailjs.send('service_1pbcblt', 'template_oghj12k', {
       name: "Website Visitor",
       message: userInput,       
       asked_questions: askedQuestions, 
