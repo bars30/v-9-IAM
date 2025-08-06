@@ -193,11 +193,13 @@ background: none;
 
 
 p, b, span,
-.message h1, .message h2, .message h3, 
-.message h4, .message h5, .message h6,
-.message p, .message b, .message span,
+ .message b, .message span,
 .message li {
   font-size: var(--16px);
+  color: var(--text-dark);
+}
+.message h1, .message h2, .message h3, 
+.message h4, .message h5, .message p, .message h6 {
   color: var(--text-dark);
 }
 .quick-prompts-header {
