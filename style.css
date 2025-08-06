@@ -214,7 +214,7 @@ p, b, span,
 .quick-prompts-header span {
   color: var(--brand-blue);
       font-weight: 600;
-          font-size: var(--28px);
+          font-size: var(--28px) !important;
 }
 .quick-prompts-subtitle {
     font-weight: 400;
@@ -759,8 +759,7 @@ button.chatbox-footer-btn.chatbox-footer-btn-questions {
     padding: 9px 12px !important;
 }
       .quick-prompts-header, .quick-prompts-header span  {
-        font-size: var(--20px) !important;
-        width: 80%;
+        width: 100%;
         margin-bottom: 6px;
     }
   .quick-prompts-cont {
