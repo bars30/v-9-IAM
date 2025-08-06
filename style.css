@@ -199,7 +199,7 @@ p, b, span,
   color: var(--text-dark);
 }
 .message h1, .message h2, .message h3, 
-.message h4, .message h5, .message p, .message h6 {
+.message h4, .message h5, .message p, .message h6, .message div {
   color: var(--text-dark);
 }
 .quick-prompts-header {
