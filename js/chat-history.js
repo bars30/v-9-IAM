@@ -1,14 +1,8 @@
-// chat-history.js
-
 const chatboxMessages = document.querySelector(".chatbox-messages");
 const promptsSection = document.querySelector(".quick-prompts");
 const input = document.querySelector(".send-message");
 const questionsBtn = document.querySelector(".chatbox-footer-btn-questions");
 
-/**
- * Վերականգնում է զրույցի պատմությունը տեղական պահեստից (localStorage),
- * և ցուցադրում այն UI-ում։
- */
 export function restoreChatHistory() {
   const savedHistory = localStorage.getItem("chatHistory");
   if (!savedHistory) return;

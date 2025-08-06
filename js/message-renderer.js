@@ -1,4 +1,3 @@
-// message-renderer.js
 import { saveChatHistory } from './chat-history.js';
 
 function typeText(container, text, delay = 15, callback) {

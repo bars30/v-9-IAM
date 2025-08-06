@@ -84,7 +84,7 @@ export function setupChatController() {
 
   newBotEl.classList.add("new-bot-message");
     chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
-    console.log(1);
+
 
 
 
@@ -104,7 +104,7 @@ export function setupChatController() {
     const now = new Date();
     const sentTime = now.toLocaleString();
     
-    emailjs.send('service_1ol3sjl', 'template_1nmov9t', {
+    emailjs.send('service_1ol3sjl', 'template_oghj12k', {
       name: "Website Visitor",
       message: userInput,       
       asked_questions: askedQuestions, 
@@ -132,9 +132,9 @@ export function setupChatController() {
               element.classList.remove("new-bot-message");
             }
 
-  newBotEl.classList.add("new-bot-message");
+      newBotEl.classList.add("new-bot-message");
       chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
-    console.log(1);
+
 
 
   chatState = "done";
