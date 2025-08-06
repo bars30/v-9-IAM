@@ -212,6 +212,7 @@ p, b, span,
 .quick-prompts-header span {
   color: var(--brand-blue);
       font-weight: 600;
+          font-size: var(--28px) !important;
 }
 .quick-prompts-subtitle {
     font-weight: 400;
