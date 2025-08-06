@@ -11,7 +11,6 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
   promptButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const selectedPrompt = btn.textContent;
-      console.log(selectedPrompt);
       
       
       promptButtons.forEach(b => b.disabled = true);
@@ -60,7 +59,6 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
 
         let delay = 15;
         if (selectedPrompt == "Data Protection" || selectedPrompt == "Datenschutz") {
-          console.log("🍺🍺🍺🍺");
           delay = 8;
         }
 

@@ -19,65 +19,100 @@ function typeTextHTML(container, html, delay = 15, callback) {
 
   const tempDiv = document.createElement("div");
   tempDiv.innerHTML = html;
-  const nodes = Array.from(tempDiv.childNodes);
 
-  let currentIndex = 0;
+  // Ստանում ենք բոլոր child nodes (համապատասխանությամբ text եւ html-ի համար)
+  const walker = document.createTreeWalker(tempDiv, NodeFilter.SHOW_ALL, null, false);
+  const nodes = [];
 
-  function typeNextNode() {
-    if (currentIndex >= nodes.length) {
-      if (callback) callback();
-      return;
-    }
-
-    const node = nodes[currentIndex];
-    
-    if (node.nodeType === Node.TEXT_NODE) {
-      const span = document.createElement("span");
-      container.appendChild(span);
-
-      typeText(span, node.textContent, delay, () => {
-        currentIndex++;
-        typeNextNode();
-        if (!span.textContent.trim()) {
-          span.remove();
-        }
-      });
-    } else if (node.nodeType === Node.ELEMENT_NODE) {
-      const clone = node.cloneNode(false); 
-      container.appendChild(clone);
-
-      let childHTML = node.innerHTML;
-
-      const temp = document.createElement("div");
-      temp.innerHTML = childHTML;
-
-      temp.querySelectorAll("span").forEach((el) => {
-        if (!el.textContent.trim()) {
-          el.remove();
-        }
-      });
-
-      childHTML = temp.innerHTML;
-
-      typeTextHTML(clone, childHTML, delay, () => {
-        currentIndex++;
-        typeNextNode();
-      });
-    } else {
-      currentIndex++;
-      typeNextNode();
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (node.nodeType === Node.TEXT_NODE || node.nodeType === Node.ELEMENT_NODE) {
+      nodes.push(node);
     }
   }
 
-  typeNextNode();
+  let flatText = '';
+  const nodeMap = [];
+
+  // Վերածում ենք տեքստ՝ ըստ նիշի, պահում ենք կապը DOM node-ների հետ
+  for (const node of nodes) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.textContent;
+      for (let i = 0; i < text.length; i++) {
+        flatText += text[i];
+        nodeMap.push({ node, index: i });
+      }
+    }
+  }
+
+  const startTime = Date.now();
+  const totalChars = flatText.length;
+
+  let lastCount = 0;
+
+  // Ստեղծում ենք համարժեք DOM կառուցվածք
+  const liveContainer = tempDiv.cloneNode(false);
+  container.appendChild(liveContainer);
+
+  function deepCloneUntilNodeIndex(original, limitNode, limitIndex) {
+    if (original.nodeType === Node.TEXT_NODE) {
+      const cloned = document.createTextNode('');
+      if (original === limitNode) {
+        cloned.textContent = original.textContent.slice(0, limitIndex + 1);
+      } else {
+        cloned.textContent = original.textContent;
+      }
+      return cloned;
+    }
+
+    if (original.nodeType === Node.ELEMENT_NODE) {
+      const cloned = original.cloneNode(false);
+      for (let child of original.childNodes) {
+        if (
+          child.contains(limitNode) ||
+          child === limitNode
+        ) {
+          cloned.appendChild(deepCloneUntilNodeIndex(child, limitNode, limitIndex));
+          break;
+        } else {
+          cloned.appendChild(child.cloneNode(true));
+        }
+      }
+      return cloned;
+    }
+
+    return null;
+  }
+
+  function update() {
+    const elapsed = Date.now() - startTime;
+    const expectedCount = Math.min(Math.floor(elapsed / delay), totalChars);
+
+    if (expectedCount > lastCount) {
+      const { node: limitNode, index: limitIndex } = nodeMap[expectedCount - 1];
+      container.innerHTML = ''; // reset
+      const newDOM = deepCloneUntilNodeIndex(tempDiv, limitNode, limitIndex);
+      container.appendChild(newDOM);
+      lastCount = expectedCount;
+    }
+
+    if (lastCount < totalChars) {
+      requestAnimationFrame(update);
+    } else {
+      if (callback) callback();
+    }
+  }
+
+  update();
 }
+
 
 
 function addMessage(text, sender = "bot", animated = false, callback, file = false) {
   const chatboxMessages = document.querySelector(".chatbox-messages");
   const msgDiv = document.createElement("div");
   msgDiv.className = `message ${sender}-message`;
-
+ 
   if (file) {
     msgDiv.innerHTML = text;
     chatboxMessages.appendChild(msgDiv);
