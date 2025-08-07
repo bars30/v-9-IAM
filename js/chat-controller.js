@@ -11,7 +11,13 @@ export function setupChatController() {
 
   sendBtn.addEventListener("click", () => {
     setTimeout(() => {  
-
+ 
+const footerPrompts = document.querySelector(".quick-prompts-footer");
+      footerPrompts.classList.remove("fade-in");
+      footerPrompts.classList.add("fade-out");
+      setTimeout(() => {
+        footerPrompts.style.display = "none";
+      }, 300);
 
     findOutMoreBtn.disabled = true;
     sendBtn.disabled = true; 

@@ -10,7 +10,7 @@ export const botEnReplies = {
     </ul>
             
     <p><b>Ready to Secure Your Digital Future with the Right IAM Talent? Find Your Next IAM Expert Now.</b></p>
-    <img src="./img/sect01.png" class="section-img" alt="">
+    <img src="./img/sect01.png" class="section-img" alt="Two tennis rackets and several tennis balls on a court, and people working together at desks with computers in an office setting">
     <div class="space"></div>
     `,
   "Services for Clients" : `
@@ -39,7 +39,7 @@ export const botEnReplies = {
       </li>
     </ul>
 
-    <img src="./img/sect04.png" class="section-img" alt="">
+    <img src="./img/sect04.png" class="section-img" alt="Two work settings: on the left, five people collaborate around a wooden table with laptops and small items; on the right, one person types on a laptop at a white desk with a coffee mug, wearing a green sweater.">
     <div class="space"></div>
   `,
   "Hiring Process" : `
@@ -51,7 +51,7 @@ export const botEnReplies = {
       <li><b>Presentation of Top Candidates & Interview Coordination:</b> We provide you with a shortlist of highly qualified candidates, complete with detailed profiles and our expert assessment. We manage all interview scheduling, feedback collection, and logistical arrangements, ensuring HR/TA Partners save time and focus on decision-making.</li>
       <li><b>Offer Management & Post-Placement Support:</b> We facilitate offer negotiations, ensuring a smooth and successful acceptance. Our support extends to post-placement follow-ups, ensuring successful integration and satisfaction for both client and candidate, reducing CISOs' concerns about team attrition.</li>
     </ol>
-    <img src="./img/sect05.png" class="section-img" alt="">
+    <img src="./img/sect05.png" class="section-img" alt="Two indoor work scenes: on the left, a person in a wheelchair works at a wooden table with a laptop, coffee, and pastry in a bright room with a brick wall and plants; on the right, another person sits on a couch using a laptop on a coffee table, wearing earphones, with a notebook and cup nearby in a cozy, decorated space.">
     <div class="space"></div>
   `,
   "Technological Expertise & Roles" : `
@@ -129,14 +129,14 @@ export const botEnReplies = {
 
     <p><b>DevSecOps Tooling Expertise:</b><br>
     Kubernetes Identity, API Security, CI/CD pipeline security.</p>
-    <img src="./img/sect06.png" class="section-img" alt="">
+    <img src="./img/sect06.png" class="section-img" alt="Split image showing hands typing on a white keyboard with a nearby mouse on the left, and a person in a white shirt working at a desk with a laptop, documents, and a glass of water on the right, illustrating a professional office setting.">
     <div class="space"></div>
   `,
   "IAM Talent Network" : `
     <p>At <b>IAM Hiring</b>, we don't just search for candidates; we connect you with a pre-existing, meticulously curated community of the most sought-after <b>Identity and Access Management (IAM) experts in Europe.</b></p>
     <p>Our vast network comprises <b>over 8,000 highly skilled IAM professionals</b>, with approximately <b>5,000 top talents located right here in Germany</b>. What truly sets us apart is the depth of our relationships: we've personally engaged with <b>every single one of these experts</b>, whether through in-depth online interviews, face-to-face meetings at industry conferences, or during dedicated meetups.</p>
     <p>This personal connection means we don't just know their skills; we understand their career aspirations, their ideal work environment, and exactly <b>what opportunity will be truly attractive for them to make a job change</b>. When you partner with us, you're not waiting for a search to begin; we likely <b>already know the ideal candidate you're looking for</b>, enabling faster, more precise placements that genuinely last.</p>
-    <img src="./img/sect02.png" class="section-img" alt="">
+    <img src="./img/sect02.png" class="section-img" alt="Split image showing a dimly lit auditorium with a seated audience watching an event on the left, and a person in a green shirt with headphones working on a laptop at a bright desk with a notebook, pen, and glasses on the right.">
     <div class="space"></div>
   `,
   "Story & Purpose" : `
@@ -144,12 +144,12 @@ export const botEnReplies = {
     <p><b>Our Vision:</b> To be the leading and most trusted specialized IAM recruitment partner in Germany and across <b>DACH/EU</b>. We're recognized for our deep industry knowledge, precision matching, and the profound positive impact we have on both client security and candidate careers.</p>
     <p><b>Our Story:</b> <b>IAM Hiring</b> is a niche recruitment firm exclusively dedicated to the IAM sector. Founded by managers with multiple years of <b>IT and Cybersecurity recruitment</b> experience in Germany, our passion was to fill a critical market gap. We observed that companies struggled to find truly specialized IAM professionals, often missed by generalist recruiters.</p>
     <p>We built <b>IAM Hiring</b> as a direct response, focusing solely on this complex domain. We understand that robust <b>IAM</b> is a critical foundation, not just a technology. Our deep specialization provides unparalleled market intelligence and direct access to a network of highly sought-after IAM professionals. We are the trusted, specialized firm that both top talents and hiring managers prefer.</p>
-    <img src="./img/sect03.png" class="section-img" alt="">
+    <img src="./img/sect03.png" class="section-img" alt=""Split image showing a person in a brown sweater with a black shoulder bag standing in front of a colorful bookshelf on the left, and a modern glass-walled meeting room with two people seated at a table in discussion, with an open office space in the background on the right.">
     <div class="space"></div>
   `,
   "Team" : `
     <article class="team-member">
-        <img class="team-member-img" src="./img/team01.png" alt="">
+        <img class="team-member-img" src="./img/team01.png" alt="Katja Olkhovaia – Strategic IAM Hiring Partner at IAM Hiring">
         <div class="article-cont">
         <div class="title-cont">
         <h3>Katja Olkhovaia</h3>
@@ -168,7 +168,7 @@ export const botEnReplies = {
 
 
     <article class="team-member">
-        <img class="team-member-img" src="./img/team02.png" alt="">
+        <img class="team-member-img" src="./img/team02.png" alt="Darius Starks – IAM Talent Partner and Technical Recruiter">
         <div class="article-cont">
         <div class="title-cont">
         <h3>Darius Starks</h3>
@@ -186,7 +186,7 @@ export const botEnReplies = {
 
 
     <article class="team-member">
-        <img class="team-member-img" src="./img/team03.png" alt="">
+        <img class="team-member-img" src="./img/team03.png" alt="Vladyslav Kartyshov – GRC and Compliance Talent Specialist">
         <div class="article-cont">
         <div class="title-cont">
         <h3>Vladyslav Kartyshov</h3>
@@ -228,7 +228,7 @@ export const botEnReplies = {
 
     <p><b>Ready for Your Next IAM Career Step?</b><br>
     <a href="#contact">Send Us Your CV</a> | <a href="#consultation">Request a Career Consultation</a></p>
-    <img src="./img/sect07.png" class="section-img" alt="">
+    <img src="./img/sect07.png" class="section-img" alt="Split-screen image showing two people working on laptops: one in a cozy home office holding a white mug during a video call, and the other in a modern office space with glass partitions and a plant nearby.">
     <div class="space"></div>
   `,
   "Contact" : `
@@ -256,7 +256,7 @@ export const botEnReplies = {
     <p>We offer personalized career guidance, insights into the latest IAM market trends in Germany and DACH, and expert advice on optimizing your job search. Whether you're looking for market intelligence, interview preparation tips, or a clear path for your professional growth, we're dedicated to helping you achieve your aspirations.</p>
     <p><b>Book your confidential career consultation by clicking the link below:</b></p>
     <p><a href="https://outlook.office.com/book/IAMhiring@starks-consulting.de/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Schedule Career Consultation</a></p>
-      <img src="./img/sect08.png" class="section-img" alt="">
+      <img src="./img/sect08.png" class="section-img" alt="Split image showing a close-up of hands holding a clipboard with documents in a cozy indoor setting, and two people in a modern office booth engaged in a laptop-based discussion near large windows and a floor lamp.">
     <div class="space"></div>
   `,
   "Send Us Your CV" : `
@@ -285,7 +285,7 @@ export const botEnReplies = {
     <p>We look forward to reviewing your profile and helping you advance your career!</p>
 
 
-    <img src="./img/sect09.png" class="section-img" alt="">
+    <img src="./img/sect09.png" class="section-img" alt="Split image showing a close-up of a hand using a computer mouse beside a keyboard and notebook, and another person typing on a laptop at a white desk with a notebook, pen, glass of water, and a plate of food.">
     <div class="space"></div>
   `,
   "Imprint" : `
@@ -336,7 +336,7 @@ export const botEnReplies = {
   <p>Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
 
  
-   <img src="./img/sect11.png" class="section-img" alt="">
+   <img src="./img/sect11.png" class="section-img" alt="Split image showing a person signing a document on a wooden desk with a pen, and a neatly tied stack of papers prepared for filing or submission.">
     <div class="space"></div>
  
   `,
@@ -473,7 +473,7 @@ E-Mail: datenshutz@iamhiring.de</p>
 
 <p>Die Aufnahme in den Bewerber-Pool geschieht ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Die Abgabe der Einwilligung ist freiwillig und steht in keinem Bezug zum laufenden Bewerbungsverfahren. Der Betroffene kann seine Einwilligung jederzeit widerrufen. In diesem Falle werden die Daten aus dem Bewerber-Pool unwiderruflich gelöscht, sofern keine gesetzlichen Aufbewahrungsgründe vorliegen. Die Daten aus dem Bewerber-Pool werden spätestens zwei Jahre nach Erteilung der Einwilligung unwiderruflich gelöscht.</p>
 
-   <img src="./img/sect10.png" class="section-img" alt="">
+   <img src="./img/sect10.png" class="section-img" alt=""Split image showing a close-up of two people in a formal desk interaction with documents and a pen, and a person standing against a wall holding a heavy stack of folders and binders, illustrating different aspects of office work.">
     <div class="space"></div>
  
   `

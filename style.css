@@ -69,6 +69,9 @@ button.lang-option.active:hover {
     background: var(--bg-language-switch) !important;
     cursor: not-allowed !important;
 }
+.upload {
+    display: none !important;
+}
 .language-switcher {
  background-color: var(--bg-language-switch);
  display: inline-flex;

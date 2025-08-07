@@ -17,7 +17,7 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
       footerBtn[0].disabled = true;
       footerBtn[1].disabled = true;
       promptsSection.classList.add("fade-out");
-
+ 
       setTimeout(() => {
         promptsSection.style.display = "none"; 
         chatboxMessages.style.display = "flex";
@@ -77,7 +77,7 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
 
   const footerPromptButtons = document.querySelectorAll('.quick-prompts-footer .quick-prompts-btn');
   const footerPrompts = document.querySelector(".quick-prompts-footer");
-
+ 
   footerPromptButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       footerPrompts.classList.remove("fade-in");

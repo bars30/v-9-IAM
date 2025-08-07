@@ -9,7 +9,7 @@ export const botDeReplies = {
     </ul>
             
     <p><b>Bereit, Ihre digitale Zukunft mit den richtigen IAM-Talenten zu sichern? Finden Sie jetzt Ihren nächsten IAM-Experten.</b></p>
-    <img src="./img/sect01.png" class="section-img" alt="">
+    <img src="./img/sect01.png" class="section-img" alt="Two tennis rackets and several tennis balls on a court, and people working together at desks with computers in an office setting">
     <div class="space"></div>
   `,
   "Dienstleistungen für Kunden" : `
@@ -37,7 +37,7 @@ export const botDeReplies = {
       </li>
     </ul>
 
-    <img src="./img/sect04.png" class="section-img" alt="">
+    <img src="./img/sect04.png" class="section-img" alt="Two work settings: on the left, five people collaborate around a wooden table with laptops and small items; on the right, one person types on a laptop at a white desk with a coffee mug, wearing a green sweater.">
     <div class="space"></div>
   `,
   "Einstellungsprozess" : `
@@ -49,7 +49,7 @@ export const botDeReplies = {
       <li><b>Präsentation von Top-Kandidaten & Interviewkoordination: </b> Wir stellen Ihnen eine Shortlist hochqualifizierter Kandidaten zur Verfügung, komplett mit detaillierten Profilen und unserer Expertenbewertung. Wir koordinieren alle Interviewtermine, sammeln Feedback und arrangieren logistische Details, wodurch HR-/TA-Partner Zeit sparen und sich auf die Entscheidungsfindung konzentrieren können.</li>
       <li><b>Angebotsmanagement & Unterstützung nach der Vermittlung: </b> Wir erleichtern die Angebotsverhandlungen und stellen eine reibungslose und erfolgreiche Annahme sicher. Unsere Unterstützung erstreckt sich auf Nachfassaktionen nach der Vermittlung, um eine erfolgreiche Integration und Zufriedenheit sowohl für den Kunden als auch für den Kandidaten zu gewährleisten, wodurch die Bedenken von CISOs hinsichtlich der Teamfluktuation reduziert werden.</li>
     </ol>
-    <img src="./img/sect05.png" class="section-img" alt="">
+    <img src="./img/sect05.png" class="section-img" alt="Two indoor work scenes: on the left, a person in a wheelchair works at a wooden table with a laptop, coffee, and pastry in a bright room with a brick wall and plants; on the right, another person sits on a couch using a laptop on a coffee table, wearing earphones, with a notebook and cup nearby in a cozy, decorated space.">
     <div class="space"></div>
   `,
   "Technologisches Fachwissen" : `
@@ -127,14 +127,14 @@ export const botDeReplies = {
 
     <p><b>DevSecOps Tooling Fachwissen:</b><br>
     Kubernetes Identity, API Security, CI/CD pipeline security.</p>
-    <img src="./img/sect06.png" class="section-img" alt="">
+    <img src="./img/sect06.png" class="section-img" alt="Split image showing hands typing on a white keyboard with a nearby mouse on the left, and a person in a white shirt working at a desk with a laptop, documents, and a glass of water on the right, illustrating a professional office setting.">
     <div class="space"></div>
   `,
   "IAM Talent-Netzwerk" : `
     <p>Bei IAM Hiring suchen wir nicht nur Kandidaten; wir verbinden Sie mit einer bereits bestehenden, akribisch kuratierten Community der gefragtesten Identity & Access Management (IAM) Experten in Europa.</p>
     <p>Unser umfangreiches Netzwerk umfasst über 8.000 hochqualifizierte IAM-Profis, davon etwa 5.000 Top-Talente direkt hier in Deutschland. Was uns wirklich auszeichnet, ist die Tiefe unserer Beziehungen: Wir haben uns persönlich mit jedem einzelnen dieser Experten ausgetauscht, sei es durch ausführliche Online-Interviews, persönliche Treffen auf Branchenkonferenzen oder bei speziellen Meetups.</p>
     <p>Diese persönliche Verbindung bedeutet, dass wir nicht nur ihre Fähigkeiten kennen; wir verstehen ihre Karriereziele, ihr ideales Arbeitsumfeld und genau welche Gelegenheit für sie wirklich attraktiv ist, um einen Stellenwechsel in Betracht zu ziehen. Wenn Sie mit uns zusammenarbeiten, warten Sie nicht darauf, dass eine Suche beginnt; wir kennen wahrscheinlich bereits den idealen Kandidaten, den Sie suchen, was schnellere, präzisere und wirklich dauerhafte Vermittlungen ermöglicht.</p>
-    <img src="./img/sect02.png" class="section-img" alt="">
+    <img src="./img/sect02.png" class="section-img" alt="Split image showing a dimly lit auditorium with a seated audience watching an event on the left, and a person in a green shirt with headphones working on a laptop at a bright desk with a notebook, pen, and glasses on the right.">
     <div class="space"></div>
   `,
   "Geschichte & Zweck" : `
@@ -142,12 +142,12 @@ export const botDeReplies = {
     <p><b>Unsere Vision:</b> Der führende und vertrauenswürdigste spezialisierte IAM-Recruitment-Partner in Deutschland und im gesamten DACH-/EU-Raum zu sein. Wir werden für unser tiefes Branchenwissen, unsere präzise Vermittlung und den tiefgreifenden positiven Einfluss, den wir sowohl auf die Kundensicherheit als auch auf die Karrieren der Kandidaten haben, anerkannt.</p>
     <p><b>Unsere Geschichte:</b> IAM Hiring ist ein Nischen-Recruitment-Unternehmen, das sich ausschließlich dem IAM-Sektor widmet. Gegründet von Managern mit langjähriger Erfahrung im IT- und Cybersecurity-Recruitment in Deutschland, war es unsere Leidenschaft, eine kritische Marktlücke zu schließen. Wir stellten fest, dass Unternehmen Schwierigkeiten hatten, wirklich spezialisierte IAM-Profis zu finden, die von Generalisten-Recruitern oft übersehen wurden.</p>
     <p>Wir haben IAM Hiring als direkte Antwort darauf aufgebaut, indem wir uns ausschließlich auf diesen komplexen Bereich konzentrierten. Wir verstehen, dass ein robustes IAM ein kritisches Fundament ist, nicht nur eine Technologie. Unsere tiefe Spezialisierung bietet unübertroffene Marktkenntnisse und direkten Zugang zu einem Netzwerk hochgefragter IAM-Profis. Wir sind das vertrauenswürdige, spezialisierte Unternehmen, das sowohl Top-Talente als auch einstellende Manager bevorzugen.</p>
-    <img src="./img/sect03.png" class="section-img" alt="">
+    <img src="./img/sect03.png" class="section-img" alt=""Split image showing a person in a brown sweater with a black shoulder bag standing in front of a colorful bookshelf on the left, and a modern glass-walled meeting room with two people seated at a table in discussion, with an open office space in the background on the right.">
     <div class="space"></div>
   `,
   "Team" : `
     <article class="team-member">
-        <img class="team-member-img" src="./img/team01.png" alt="">
+        <img class="team-member-img" src="./img/team01.png" alt="Katja Olkhovaia – Strategic IAM Hiring Partner at IAM Hiring">
         <div class="article-cont">
         <div class="title-cont">
         <h3>Katja Olkhovaia</h3>
@@ -166,7 +166,7 @@ export const botDeReplies = {
 
 
     <article class="team-member">
-        <img class="team-member-img" src="./img/team02.png" alt="">
+        <img class="team-member-img" src="./img/team02.png" alt="Darius Starks – IAM Talent Partner and Technical Recruiter">
         <div class="article-cont">
         <div class="title-cont">
         <h3>Darius Starks</h3>
@@ -184,7 +184,7 @@ export const botDeReplies = {
 
 
     <article class="team-member">
-        <img class="team-member-img" src="./img/team03.png" alt="">
+        <img class="team-member-img" src="./img/team03.png" alt="Vladyslav Kartyshov – GRC and Compliance Talent Specialist">
         <div class="article-cont">
         <div class="title-cont">
         <h3>Vladyslav Kartyshov</h3>
@@ -226,7 +226,7 @@ export const botDeReplies = {
     <p><b>Bereit für den nächsten Schritt in Ihrer IAM-Karriere?</b><br>
     <a href="#contact">Senden Sie uns Ihren Lebenslauf</a> | <a href="#consultation">Vereinbaren Sie eine Karriereberatung</a></p>
 
-    <img src="./img/sect07.png" class="section-img" alt="">
+    <img src="./img/sect07.png" class="section-img" alt="Split-screen image showing two people working on laptops: one in a cozy home office holding a white mug during a video call, and the other in a modern office space with glass partitions and a plant nearby.">
     <div class="space"></div>
   `,
   "Kontakt" : `
@@ -254,7 +254,7 @@ export const botDeReplies = {
     <p>Wir bieten personalisierte Karriereberatung, Einblicke in die neuesten IAM-Markttrends in Deutschland und DACH sowie fachkundige Ratschläge zur Optimierung Ihrer Jobsuche. <br> Egal, ob Sie Marktinformationen, Tipps zur Interviewvorbereitung oder einen klaren Weg für Ihr berufliches Wachstum suchen, wir sind bestrebt, Ihnen bei der Verwirklichung Ihrer Ziele zu helfen. </p>
     <p><b>Buchen Sie Ihre vertrauliche Karriereberatung, indem Sie auf den untenstehenden Link klicken:</b></p>
     <p><a href="https://outlook.office.com/book/IAMhiring@starks-consulting.de/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Karriereberatung vereinbaren</a></p>
-    <img src="./img/sect08.png" class="section-img" alt="">
+    <img src="./img/sect08.png" class="section-img" alt="Split image showing a close-up of hands holding a clipboard with documents in a cozy indoor setting, and two people in a modern office booth engaged in a laptop-based discussion near large windows and a floor lamp.">
     <div class="space"></div>
   `,
   "Senden Sie uns Ihren Lebenslauf" : `
@@ -283,7 +283,7 @@ export const botDeReplies = {
     <p>Wir freuen uns darauf, Ihr Profil zu prüfen und Ihnen zu helfen, Ihre Karriere voranzutreiben!</p>
 
 
-      <img src="./img/sect09.png" class="section-img" alt="">
+      <img src="./img/sect09.png" class="section-img" alt="Split image showing a close-up of a hand using a computer mouse beside a keyboard and notebook, and another person typing on a laptop at a white desk with a notebook, pen, glass of water, and a plate of food.">
     <div class="space"></div>
   `,
   "Impressum" : `
@@ -334,7 +334,7 @@ export const botDeReplies = {
   <p>Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
 
  
-    <img src="./img/sect11.png" class="section-img" alt="">
+    <img src="./img/sect11.png" class="section-img" alt="Split image showing a person signing a document on a wooden desk with a pen, and a neatly tied stack of papers prepared for filing or submission.">
     <div class="space"></div>
  
  
@@ -473,7 +473,7 @@ E-Mail: datenshutz@iamhiring.de</p>
 <p>Die Aufnahme in den Bewerber-Pool geschieht ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Die Abgabe der Einwilligung ist freiwillig und steht in keinem Bezug zum laufenden Bewerbungsverfahren. Der Betroffene kann seine Einwilligung jederzeit widerrufen. In diesem Falle werden die Daten aus dem Bewerber-Pool unwiderruflich gelöscht, sofern keine gesetzlichen Aufbewahrungsgründe vorliegen. Die Daten aus dem Bewerber-Pool werden spätestens zwei Jahre nach Erteilung der Einwilligung unwiderruflich gelöscht.</p>
 
 
-   <img src="./img/sect10.png" class="section-img" alt="">
+   <img src="./img/sect10.png" class="section-img" alt=""Split image showing a close-up of two people in a formal desk interaction with documents and a pen, and a person standing against a wall holding a heavy stack of folders and binders, illustrating different aspects of office work.">
     <div class="space"></div>
  
   `
