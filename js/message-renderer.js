@@ -1,6 +1,6 @@
 import { saveChatHistory } from './chat-history.js';
 
-function typeText(container, text, delay = 15, callback) {
+function typeText(container, text, delay = 7, callback) {
   let i = 0;
   container.textContent = '';
   const interval = setInterval(() => {
@@ -14,13 +14,12 @@ function typeText(container, text, delay = 15, callback) {
   }, delay);
 }
 
-function typeTextHTML(container, html, delay = 15, callback) {
+function typeTextHTML(container, html, delay = 7, callback) {
   container.innerHTML = ''; 
 
   const tempDiv = document.createElement("div");
   tempDiv.innerHTML = html;
 
-  // Ստանում ենք բոլոր child nodes (համապատասխանությամբ text եւ html-ի համար)
   const walker = document.createTreeWalker(tempDiv, NodeFilter.SHOW_ALL, null, false);
   const nodes = [];
 
@@ -34,7 +33,6 @@ function typeTextHTML(container, html, delay = 15, callback) {
   let flatText = '';
   const nodeMap = [];
 
-  // Վերածում ենք տեքստ՝ ըստ նիշի, պահում ենք կապը DOM node-ների հետ
   for (const node of nodes) {
     if (node.nodeType === Node.TEXT_NODE) {
       const text = node.textContent;
@@ -50,7 +48,6 @@ function typeTextHTML(container, html, delay = 15, callback) {
 
   let lastCount = 0;
 
-  // Ստեղծում ենք համարժեք DOM կառուցվածք
   const liveContainer = tempDiv.cloneNode(false);
   container.appendChild(liveContainer);
 
@@ -128,7 +125,7 @@ function addMessage(text, sender = "bot", animated = false, callback, file = fal
   const isSimpleText = !/<[^>]+>/.test(text);
  
   if (animated && !isSimpleText) {
-    typeTextHTML(p, text, 15, () => {
+    typeTextHTML(p, text, 5, () => {
       if (callback) callback();
     });
   } else {

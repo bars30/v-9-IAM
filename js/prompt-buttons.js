@@ -57,9 +57,9 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
         footerBtn[0].disabled = true;
         footerBtn[1].disabled = true;
 
-        let delay = 15;
+        let delay = 7;
         if (selectedPrompt == "Data Protection" || selectedPrompt == "Datenschutz") {
-          delay = 8;
+          delay = 1;
         }
 
         typeTextHTML(botP, getBotReply(selectedPrompt), delay, () => {
