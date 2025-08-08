@@ -59,7 +59,7 @@ export function setupPromptButtons(langSwitcher, sendBtn, footerBtn) {
 
         let delay = 7;
         if (selectedPrompt == "Data Protection" || selectedPrompt == "Datenschutz") {
-          delay = 1;
+          delay = 0.11;
         }
 
         typeTextHTML(botP, getBotReply(selectedPrompt), delay, () => {
